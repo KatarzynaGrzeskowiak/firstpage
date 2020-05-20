@@ -1,82 +1,87 @@
 <!DOCTYPE html>
 <html lang="pl">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ciekawostkowo</title>
-    <link href="style.css" rel="stylesheet" type="text/css">
-</head>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
 
-
-<body>
-
+  <body>
     <header>
-
-        <nav class="navigation">
-            <a class ="navigation__link" href="index.html">Strona główna</a>
-            <a class ="navigation__link" href="ja.html">O mnie</a>
-            <a class ="navigation__link" href="kotelki.html">O Kotełkach</a>
-        </nav>
-
+      <nav class="navigation">
+        <a class="navigation__link" href="index.html">Strona główna</a>
+        <a class="navigation__link" href="ja.html">O mnie</a>
+        <a class="navigation__link" href="kotelki.html">O Kotełkach</a>
+      </nav>
     </header>
 
     <main>
+      <header id="top" class="header">
+        <h1>Siemka</h1>
+      </header>
 
-        <header id="top" class="header">
-            <h1>Siemka</h1>
-        </header>
+      <section class="section">
+        <h2 class="section__title">Tutaj znajdą się przydatne informacje</h2>
 
-        <section class="section">
-            <h2 class="section__title">Tutaj znajdą się przydatne informacje</h2>
+        <article class="section-article">
+          <h3 class="section-article__title">O html</h3>
+          <p class="section-article__text">
+            Artykuł = treść, którą jak wytniesz ze strony będzie miała cały czas
+            sens i będzie jakąś całością
+          </p>
+          <p class="section-article__text">
+            Nagłówek = coś ważnego co zaczyna większą treść
+          </p>
+          <p class="section-article__text">
+            Sekcja dzieli, nie musi być samotnym tworem. 1 sekcja strony 2
+            sekcja artykułu. Sekcja jest częscią czegoś większego
+          </p>
+        </article>
 
-            <article class="section-article">
-                <h3 class="section-article__title">O html</h3>
-                <p class="section-article__text">Artykuł = treść, którą jak wytniesz ze strony będzie miała cały czas sens i będzie jakąś całością </p>
-                <p class="section-article__text">Nagłówek = coś ważnego co zaczyna większą treść </p>
-                <p class="section-article__text"> Sekcja dzieli, nie musi być samotnym tworem. 1 sekcja strony 2 sekcja artykułu. Sekcja jest częscią czegoś większego</p>
-            </article>
-    
-            <article class="section-article">
-                <h3 class="section-article__title">O css</h3>
-                <p class="section-article__text">Coś tutaj będzie. </p>
-            </article>
+        <article class="section-article">
+          <h3 class="section-article__title">O css</h3>
+          <p class="section-article__text">Coś tutaj będzie.</p>
+        </article>
 
-            <article class="section-article">
-                <h3 class="section-article__title">O js</h3>
-                <p class="section-article__text">Coś do wpisania napewno się znajdzie. </p>
-                <p class="section-article__text--js"> To się zmieni za pomocą js. </p>
-            </article>
-        </section>
+        <article class="section-article">
+          <h3 class="section-article__title">O js</h3>
+          <p class="section-article__text">
+            Coś do wpisania napewno się znajdzie.
+          </p>
+          <p class="section-article__text--js">To się zmieni za pomocą js.</p>
+        </article>
+      </section>
 
+      <section class="section">
+        <h2 class="section__title">Tutaj znajdą się przydatne komendy</h2>
 
-        <section class="section">
-            <h2 class="section__title">Tutaj znajdą się przydatne komendy</h2>
+        <article class="section-article">
+          <h3 class="section-article__title">Komendy w html</h3>
+          <p class="section-article__text">
+            target="_blank" - pozwala na otwieranie linku w osobnej karcie.
+            Umieszczamy go w a.
+          </p>
+        </article>
 
-                <article class="section-article">
-                    <h3 class="section-article__title">Komendy w html</h3>
-                    <p class="section-article__text">target="_blank" - pozwala na otwieranie linku w osobnej karcie. Umieszczamy go w a. </p>
-                </article>
-        
-                <article class="section-article">
-                    <h3 class="section-article__title">Komendy w css</h3>
-                    <p class="section-article__text">Coś tutaj będzie. </p>
-                </article>
+        <article class="section-article">
+          <h3 class="section-article__title">Komendy w css</h3>
+          <p class="section-article__text">Coś tutaj będzie.</p>
+        </article>
 
-                <article class="section-article">
-                    <h3 class="section-article__title">Komendy w js</h3>
-                    <p class="section-article__text">Coś do wpisania napewno się znajdzie. </p>
-                </article>
-        </section>
-
+        <article class="section-article">
+          <h3 class="section-article__title">Komendy w js</h3>
+          <p class="section-article__text">
+            Coś do wpisania napewno się znajdzie.
+          </p>
+        </article>
+      </section>
     </main>
 
     <footer class="footer">
-        To tyle. Wróć na <a class="footer__link" href="#top">górę</a>
+      To tyle. Wróć na <a class="footer__link" href="#top">górę</a>
     </footer>
 
     <script src="main.js"></script>
-
-</body>
-
+  </body>
 </html>

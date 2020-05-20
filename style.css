@@ -15,7 +15,6 @@ body {
   color: red;
 }
 
-
 .header {
   font-family: lazer84;
   font-size: 1.5rem;
@@ -26,7 +25,7 @@ body {
   text-align: center;
 }
 
-.header__link{
+.header__link {
   color: #12e912;
 }
 
@@ -47,7 +46,7 @@ body {
   padding-left: 1rem;
 }
 
-.navigation{
+.navigation {
   text-align: center;
 }
 
@@ -67,12 +66,11 @@ body {
   border-radius: 50px;
   text-align: center;
   max-width: 800px;
-  
 }
 
 .section--optimalization {
   min-height: calc(100vh - 272px);
-} 
+}
 
 .section__title {
   color: #1460aa;
@@ -82,7 +80,6 @@ body {
   color: #18b318;
   font-size: 17px;
 }
-
 
 .section-article__title {
   color: #ffffff;
@@ -96,4 +93,3 @@ body {
   height: 405px;
   width: 381px;
 }
-
