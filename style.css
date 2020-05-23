@@ -59,7 +59,7 @@ body {
 }
 
 .section,
-.section-article {
+.article {
   background: rgba(255, 0, 0, 0.3);
   padding: 16px;
   margin: 16px auto;
@@ -81,15 +81,15 @@ body {
   font-size: 17px;
 }
 
-.section-article__title {
+.article__title {
   color: #ffffff;
 }
 
-.section-article__link {
+.article__link {
   color: #e713c4;
 }
 
-.section-article__photo {
+.article__photo {
   height: 405px;
   width: 381px;
 }
